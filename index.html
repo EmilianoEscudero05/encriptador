@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+    <div class="cajas">
+        
+        <div class="cajaIzquierda">
+            <form action="">
+                <textarea name="" placeholder="Ingresa el texto aquí" class="textUser" cols="30" rows="10" id="aEncriptar"></textarea>
+            </form>
+            <p class="advertencia">*Solo letras minúsculas y sin acentos</p>
+            
+            <div class="botones">
+                <button class="Encriptar">Encriptar</button>
+                <button class="Desencriptar">Desencriptar</button>
+                
+            </div>
+        </div>
+        
+        <div class="cajaDerecha">
+            
+            <form action="">
+                <textarea readonly name="" class="textEncriptado" placeholder="Resultado" id="encriptado1" cols="30" rows="10"> </textarea>
+            </form>
+            <div class="boton_copy">
+                <button class="copiar" id="copiar" onclick="limpiar()">copiar</button>
+            </div>
+    
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 por Emiliano Félix Escudero</p>
+    </footer>
+</body>
+</html>
+
+

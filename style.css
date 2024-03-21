@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    background-color: #d3643b;
+    height: 65px;
+    width: 100%;
+    
+}
+header h1{
+    text-align: center;
+    padding: 20px;
+}
+.advertencia{
+    font-size: 11px;
+
+
+}
+.cajas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+    
+}
+textarea{
+    border-radius: 6px;
+    border-width: 6px;
+    border-color: #d3643b;
+
+}
+.cajaIzquierda textarea{
+    height: 70vh;
+    width: 70vh;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+.cajaDerecha textarea{
+    height: 70vh;
+    width: 70vh;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.botones button{
+    margin: 30px 15px 15px;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    background-color: #403b33;
+    color: #fff;
+
+}
+.botones button:hover{
+    background-color: #ffff;
+    color: #403b33;
+}
+.boton_copy button{
+    margin: 30px 15px 15px;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    background-color: #403b33;
+    color: #fff;
+}
+.boton_copy button:hover{
+    background-color: #ffff;
+    color: #403b33;
+}
+
+footer{
+    background-color: #403b33;
+    color: #fff;
+}
+.boton_copy .botones{
+    display: flex;
+    flex-direction: row;
+}
